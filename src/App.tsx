@@ -1,3 +1,7 @@
+console.log('[Appwrite] ENV ENDPOINT:', import.meta.env.VITE_APPWRITE_ENDPOINT);
+console.log('[Appwrite] ENV PROJECT ID:', import.meta.env.VITE_APPWRITE_PROJECT_ID);
+
+
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
