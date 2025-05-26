@@ -2,8 +2,9 @@ import { Client, Account, Databases, ID, Query } from 'appwrite';
 
 console.log('[Appwrite] Initializing client...');
 const client = new Client()
-    .setEndpoint(import.meta.env.VITE_APPWRITE_ENDPOINT)
-    .setProject(import.meta.env.VITE_APPWRITE_PROJECT_ID);
+  .setEndpoint("https://cloud.appwrite.io/v1")
+  .setProject("68288473000c3d95c948"); // Replace with your real project ID
+
 
 console.log('[Appwrite] Initializing services...');
 const account = new Account(client);
